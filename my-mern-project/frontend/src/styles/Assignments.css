@@ -1,0 +1,80 @@
+/* frontend/src/styles/Assignments.css */
+
+.assignments-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .assignments-container h2 {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .assignments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .assignment-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #007bff;
+  }
+  
+  .assignment-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px;
+  }
+  
+  .assignment-card p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .assignment-card input[type="file"] {
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .assignment-card button {
+    margin-top: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .assignment-card button:hover {
+    background: #0056b3;
+  }
+  
+  .success {
+    color: green;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }

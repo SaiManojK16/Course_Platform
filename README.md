@@ -1,2 +1,0 @@
-# Course_Platform
-# hi 
